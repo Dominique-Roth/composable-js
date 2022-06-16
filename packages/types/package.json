@@ -1,0 +1,8 @@
+{
+  "name": "types",
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "^4.7.3",
+    "@polkadot/api": "^8.5.1"
+  }
+}

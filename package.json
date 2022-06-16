@@ -1,6 +1,14 @@
 {
-  "devDependencies": {
-    "typescript": "^4.7.3",
-    "@polkadot/api": "8.3.2"
-  }
+    "name": "composable-js",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "resolutions": {
+        "@polkadot/api": "^8.5.1",
+        "typescript": "^4.7.3"
+    },
+    "devDependencies": {
+        "typescript": "^4.7.3"
+    }
 }
